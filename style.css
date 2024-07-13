@@ -1,9 +1,18 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    height: 100%;
+    flex:1;
+}
+
 .main {
     display: flex;
     flex-direction:column;
     background-color:#1F2937;
     color: white;
-    height: 300px;
+    
+    
 }
 
 .logo {
@@ -46,11 +55,13 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 450px;
+    margin: 10px;
 }
 
 
 .hero {
     max-width: 350px;
+    color: #E5E7EB;
 }
 
 .placeholder {
@@ -68,3 +79,35 @@ h1 {
     justify-content: center;
     gap: 200px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    margin: 20px;
+    gap: 60px;
+}
+
+.image {
+    height: 125px;
+    width: 125px;
+    border: 3px solid rgb(51, 132, 255);
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+
+
