@@ -11,8 +11,6 @@ html, body {
     flex-direction:column;
     background-color:#1F2937;
     color: white;
-    
-    
 }
 
 .logo {
@@ -46,7 +44,7 @@ h1 {
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 800;
     color: #F9FAF8;
 }
@@ -60,38 +58,42 @@ h1 {
 
 
 .hero {
-    max-width: 350px;
+    width: 385px;
     color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .placeholder {
-    width: 400px;
-    height: 164px;
+    width: 450px;
+    
     background-color: rgb(128, 130, 141);
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .header-two {
-    margin: 50px 75px;
+    margin: 20px 75px;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 115px;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin: 15px;
 }
 
 .images {
     display: flex;
     margin: 20px;
-    gap: 60px;
+    gap: 40px;
 }
 
 .image {
@@ -107,6 +109,43 @@ h1 {
     gap: 10px;
     width: 130px;
     text-align: center;
+    
+}
+
+.sign-up {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;;
+    font-weight: 700;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 10px;
+    text-align: center;
+}
+
+.the-quote {
+    font-style: italic;
+    font-size: 20px;
+    color: #1F2937;
+    width: 600px;   
+    margin: 10px;
+}
+
+.credit {
+    display: flex;
+    text-align: right;
+    margin-left: 400px;
+    font-weight: bold;
+
 }
 
 
