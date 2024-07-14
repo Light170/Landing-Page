@@ -3,7 +3,11 @@ html, body {
     flex-direction: column;
     justify-content: flex;
     height: 100%;
-    flex:1;
+    margin: 0;
+}
+
+body {
+    flex: 1;
 }
 
 .main {
@@ -128,7 +132,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -148,5 +152,66 @@ h1 {
 
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #3882F6;
+    border: 1px solid #3882F6 ;
+    border-radius: 7px;
+    margin: 27px;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 17px;
+    color: #f3f7ff;
+}
+
+.sub {
+    color: #E5E7EB ;
+    font-size: 15px;
+}
+
+.sign-up-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3882F6;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    color: white;
+    font-size: 15px;
+    flex-grow: 1;
+    padding: 5px;
+    
+    
+
+}
 
 
