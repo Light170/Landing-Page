@@ -116,14 +116,19 @@ h1 {
     
 }
 
-.sign-up {
+.sign-up, .sign-up-2 {
     width: 100px;
     height: 30px;
     border-radius: 7px;
     background-color: #3882F6;
     color: white;
     border: 1px solid #3882F6;;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sign-up-2 {
+    border: 1px solid white;
 }
 
 .quote {
@@ -184,20 +189,6 @@ h1 {
 .sub {
     color: #E5E7EB ;
     font-size: 15px;
-}
-
-.sign-up-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #3882F6;
-    font-size: 15px;
-    font-weight: bold;
-    border: 1px solid white;
-    border-radius: 7px;
-    width: 100px;
-    height: 30px;
 }
 
 .copyright {
