@@ -1,23 +1,25 @@
-html, body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex;
-    height: 100%;
+* {
+    padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.main {
+.container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#1F2937;
     color: white;
-    padding: 20px;
-    
+    padding-top: 20px;  
+    gap: 430px;
     
 }
 
@@ -25,30 +27,24 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    width: 150px;
+    width: 180px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-}
-
-.links {
-    max-width: 410px;
-}
-
-.links a {
+nav a {
     text-decoration: none;
-    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
     font-size: 18px;
+    color: #E5E7EB;
 }
 
-h1 {
-    padding: 0;
-    margin: 0;
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color:#1F2937;
+    padding: 115px;
 }
 
 .hero h1 {
@@ -57,28 +53,13 @@ h1 {
     color: #F9FAF8;
 }
 
-.header-one {
-    display: flex;
-    justify-content: center;
-    gap: 410px;
-    
-}
 
-.hero {
-    width: 430px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.sub-hero {
+.hero p {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
-    padding: 0;
 }
 
-.placeholder {
+.hero .right {
     width: 500px;
     background-color: rgb(128, 130, 141);
     color: #E5E7EB;
@@ -89,20 +70,24 @@ h1 {
     
 }
 
-.header-two {
-    margin-top: 80px;
-    margin-bottom: 85px;
+.hero .left {
+    width: 500px;
+}
+
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    width: 100%;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .information h2 {
@@ -117,13 +102,13 @@ h1 {
 }
 
 .image {
-    height: 150px;
-    width: 150px;
+    height: 155px;
+    width: 155px;
     border: 4px solid rgb(51, 132, 255);
     border-radius: 12px;
 }
 
-.image-container {
+.images .container {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -133,13 +118,13 @@ h1 {
     
 }
 
-.sub-text  {
+.images .container p  {
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: #1f2937;
     
 }
 
-.sign-up, .sign-up-2 {
+.hero button, .action button {
     width: 120px;
     height: 35px;
     border-radius: 7px;
@@ -147,12 +132,16 @@ h1 {
     color: white;
     border: 2px solid #3882F6;;
     font-weight: bold;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 18px;
+    cursor: pointer;
     
 }
 
-.sign-up-2 {
+.hero button {
+    margin-top: 15px;
+}
+
+.action button {
     border: 2px solid white;
 }
 
@@ -165,23 +154,25 @@ h1 {
     padding-top: 100px;
     padding-bottom: 85px;
     text-align: center;
+    width: 100%;
+    
 }
 
-.the-quote {
+.quote blockquote {
     font-style: italic;
     font-size: 36px;
-    color: #1F2937;
     width: 815px;   
     margin: 10px;
     text-align: left;
+    color: #1F2937;
 }
 
-.credit {
+.quote p {
     display: flex;
     text-align: right;
     margin-left: 550px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
 
 }
 
@@ -189,44 +180,41 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box {
     background-color: #3882F6;
     border: 1px solid #3882F6 ;
     border-radius: 7px;
-    margin: 90px;
-    width: 1050px;
-    height: 140px;
+    margin: 100px;
+    width: 70rem;
+    height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-}
-
 .title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 23px;
     color: #f3f7ff;
 }
 
-.sub-action {
+.text p {
     color: #E5E7EB ;
     font-size: 18px;
 }
 
-.copyright {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#1F2937;
-    color: white;
-    font-size: 18px;
     padding: 40px;
+    color: #e5e7eb;
 }
+
+footer p {
+    font-size: 18px;
+}
+
+
 
 
